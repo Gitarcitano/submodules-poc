@@ -3,4 +3,6 @@ export interface UserType {
   email: string;
   isActive: boolean;
   displayName?: string;
+  createdAt: Date;
+  updatedAt: Date;
 }
